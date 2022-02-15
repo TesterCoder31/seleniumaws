@@ -21,8 +21,6 @@ options.add_argument("--disable-dev-shm-usage")
 driver = webdriver.Chrome(options=options)
 
 
-#make a full screen
-#driver = webdriver.Chrome('C:/Users/gyana/Documents/Geetacybersecurity/ISQAM/pythonProject/chromedriver.exe')
 
 def setUp():
     driver.maximize_window()
