@@ -18,6 +18,7 @@ options.add_argument("start-maximized")
 options.add_argument("enable-automation")
 options.add_argument("--disable-infobars")
 options.add_argument("--disable-dev-shm-usage")
+
 driver = webdriver.Chrome(options=options)
 
 
